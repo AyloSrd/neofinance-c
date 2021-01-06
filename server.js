@@ -2,8 +2,8 @@
 
 const puppeteer = require('puppeteer')
 const nodemailer = require('nodemailer')
-require('dotenv').config()
 const CronJob = require('cron').CronJob
+require('dotenv').config()
 const url = 'https://www.neofinance.com/en/loans'
 
 let count = 1
